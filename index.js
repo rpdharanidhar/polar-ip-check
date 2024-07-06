@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     
     // Respond to the client
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('hloo thi sis the polar-ip-chk from co3min3r \n');
+    res.end('hloo this is the polar-ip-chk from co3min3r \n');
 });
 
 const PORT = 3000;
